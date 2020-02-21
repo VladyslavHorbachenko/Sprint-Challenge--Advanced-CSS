@@ -1,1 +1,17 @@
 // Mixins Here
+.flex{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.size{
+    width:100%;
+}
+.custom-btn(@btn-bg-color,@width){
+    background-color: @btn-bg-color;
+    color: white;
+    font-size: 18px;
+    width: @width;
+    height: 30px;
+    border-radius: 5px;
+}
